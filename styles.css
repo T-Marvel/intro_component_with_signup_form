@@ -1,0 +1,270 @@
+@media (max-width: 767px) {
+    * {
+        box-sizing: border-box;
+     }
+
+    body {
+        
+        background-color: rgb(255, 115, 115);
+        font-family: poppins, sans-serif;
+        color: #ffff;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 8px;
+        background-image: url("./images/bg-intro-mobile.png");
+    }
+
+    form {
+        background-color: white;
+        width: 100%;
+    }
+
+    span {
+        color: red;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin: 21.44px 0px;
+      height: 80px;
+    }
+
+    #form_text {
+        color: #b9b6d3;
+    }
+
+
+
+
+
+    #header-paragraph {
+      margin: 16px 0px;
+      font-size: 16px;
+      height: 75px;
+      width: 100%;
+      text-align: center;
+      max-width: 628px;
+      min-width: 334px;
+    }
+
+    #subscription_button {
+      background-color: #6055A5;
+      font-size: 12.8px;
+      width: 100%;
+      height: 56.38px;
+      border-radius: 10px;
+      border: none;
+      color: #ffffff;
+      padding: 6.4px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      box-shadow: 0px 0.45em 0px 0px #df6d6d;
+    }
+
+    #inner_subscription_button_text {
+      font-weight: bold;
+      color:#ffffff;
+    }
+    form {
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0.45em 0px 0px #df6d6d;
+    }
+
+    input {
+      width: 100%;
+      padding: 0px 13.3333px;
+      margin: 20px 0px 0px 0px;
+      height: 40px;
+      border-color: rgb(235, 234, 234);
+      
+    }
+
+    /* input:required {
+      border: 2px solid #ff7a7a;
+    } */
+
+    #submit_button {
+      background-color: #38cc8c;
+      margin: 12px 0px 0px 0px;
+      padding: 3px 13.3333px 0px;
+      width: 100%;
+      height: 40px;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      text-align: center;
+      box-shadow: 0px 0.3em 0px 0px #2fb179;
+    }
+
+    footer {
+      margin-top: 20px;
+      margin-bottom: 13.3333px;
+      text-align: center;
+    }
+
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+  
+/*CSS code executed for screen size larger than 767px*/
+ @media (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+ }
+
+body {
+    
+    background-color: rgb(255, 115, 115);
+    font-family: poppins, sans-serif;
+    color: #ffff;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 69.5px;
+    background-image: url("./images/bg-intro-desktop.png");
+    gap: 100px;
+  }
+
+  div {
+    text-align: center;
+  }
+
+form {
+    background-color: white;
+    width: 100%;
+}
+
+span {
+    color: red;
+}
+
+#form_text {
+    color: #b9b6d3;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 21.44px;
+
+  height: 90px;
+  width: 400.91px;
+}
+
+#header-paragraph {
+  margin: 21.44px;
+  font-size: 14.4px;
+  height: 63px;
+  width: 400.91px;
+  
+}
+
+#subscription_button {
+  background-color: #6055A5;
+  font-size: 12.8px;
+  min-width: 300px;
+  max-width: 100%;
+  width: 100%;
+  height: 56.38px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  padding: 6.4px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0.45em 0px 0px #df6d6d;
+}
+
+#subscription_button:hover {
+  opacity: 0.7;
+}
+
+#inner_subscription_button_text {
+  font-weight: bold;
+  color:#ffffff;
+}
+
+form {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0.45em 0px 0px #df6d6d;
+}
+
+input {
+  width: 100%;
+  padding: 0px 13.3333px;
+  margin: 20px 0px 0px 0px;
+  height: 40px;
+  border-color: rgb(235, 234, 234);
+  
+}
+
+
+
+#submit_button {
+  background-color: #38cc8c;
+  margin: 12px 0px 0px 0px;
+  padding: 3px 13.3333px 0px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  box-shadow: 0px 0.3em 0px 0px #2fb179
+}
+
+#submit_button:hover {
+  opacity: 0.7;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 13.3333px;
+  align-self: flex-end;
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+ }
+
+
+  /* @media (min-width: 481px) and (max-width: 1200px) {
+    body {
+      background-color: powderblue;
+    }
+  } */
+  /* @media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+      background-color: limegreen;
+    }
+  } */
+
+  /* @media (min-width: 1601px) {
+    body {
+      background-color: seagreen;
+    }
+  } */
